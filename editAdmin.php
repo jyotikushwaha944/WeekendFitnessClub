@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
         }else{
             mysqli_stmt_bind_param($stmt,"si",$lname, $id);
-            // here ss is to pass string values and i is to pass integer values
+            // here ss is to pass string values and i is to pass integer values // this is just for test
             if(mysqli_stmt_execute($stmt)){
 
             }  
